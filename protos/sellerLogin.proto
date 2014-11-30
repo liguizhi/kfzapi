@@ -1,0 +1,14 @@
+message SellerLogin{
+	required string username = 1;
+	required string password = 2;
+	required int32 appId = 3;
+	required string appName = 4;
+}
+message SellerLoginOutPut{
+	required int32 status = 1;
+	optional int32 code = 2;
+	optional string info = 3;
+	optional string token = 4;
+	optional string uid = 5;
+	optional string photo = 6;
+}
