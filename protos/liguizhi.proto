@@ -1,0 +1,4 @@
+message{
+	required string name = 1;
+	optional string area = 2;
+}
